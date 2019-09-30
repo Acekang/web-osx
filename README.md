@@ -1,29 +1,21 @@
-# osx
+# web-osx
 
-## Project setup
+## 项目安装
 ```
-yarn install
-```
-
-### Compiles and hot-reloads for development
-```
-yarn run serve
+yarn install / npm install 
 ```
 
-### Compiles and minifies for production
+### 开发环境编译
 ```
-yarn run build
+yarn run serve / npm run serve
 ```
 
-### Run your tests
+### 生产环境编译
+```
+yarn run build / npm run serve
+```
+
+### 项目测试
 ```
 yarn run test
 ```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
