@@ -1,5 +1,6 @@
 module.exports = {
   //axios域代理，解决axios跨域问题
+  publicPath: process.env.NODE_ENV === "production" ? "./" : "/",
   baseUrl: "/",
   devServer: {
     proxy: {
