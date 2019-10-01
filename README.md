@@ -1,5 +1,8 @@
 # web-osx
 
+请先下载nodejs 并确保安装了 npm 或者 yarn
+
+
 ## 项目安装
 ```
 yarn install / npm install 
@@ -15,7 +18,3 @@ yarn run serve / npm run serve
 yarn run build / npm run serve
 ```
 
-### 项目测试
-```
-yarn run test
-```
