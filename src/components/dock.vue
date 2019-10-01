@@ -4,11 +4,11 @@
       <router-link :to="{name:'finder'}" class="app">
         <img src="../imgs/icon/finder.png" alt />
       </router-link>
-      <router-link :to="{name:'photo'}" class="app">
-        <img src="../imgs/icon/photo.png" alt />
-      </router-link>
       <router-link :to="{name:'settings'}" class="app">
         <img src="../imgs/icon/prefence.png" alt />
+      </router-link>
+      <router-link :to="{name:'photo'}" class="app">
+        <img src="../imgs/icon/photo.png" alt />
       </router-link>
       <router-link :to="{name:'news'}" class="app">
         <img src="../imgs/icon/netease.png" alt />
@@ -32,15 +32,15 @@ export default {
 .dock {
   position: fixed;
   bottom: 0;
-  height: 50px;
+  height: 60px;
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-around;
 }
 .dock .item {
-  padding-left: 5px;
-  padding-right: 5px;
+  padding-left: 6px;
+  padding-right: 6px;
   height: 100%;
   display: flex;
   align-items: center;
@@ -50,9 +50,12 @@ export default {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
+.dock .item .app img:hover {
+  height: 70px;
+  width: 70px;
+}
 .dock .item .app img {
-  width: 40px;
-  height: 40px;
-  margin-left: 0.5vw;
+  width: 50px;
+  height: 50px;
 }
 </style>

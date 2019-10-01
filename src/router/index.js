@@ -6,6 +6,8 @@ import weather from "@/components/weather.vue";
 import settings from "@/components/settings.vue";
 import photo from "@/components/photo.vue";
 import finder from "@/components/finder.vue";
+import filelist from "@/components/filelist";
+import applist from "@/components/applist";
 Vue.use(Router);
 
 export default new Router({
@@ -40,7 +42,19 @@ export default new Router({
         {
           path: "finder",
           name: "finder",
-          component: finder
+          component: finder,
+          children: [
+            {
+              path: "applist",
+              name: "applist",
+              component: applist
+            },
+            {
+              path: "filelist",
+              name: "filelist",
+              component: filelist
+            }
+          ]
         }
       ]
     }

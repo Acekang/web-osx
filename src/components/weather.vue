@@ -1,15 +1,15 @@
 <template >
   <div class="root">
-    <div class="city">城市:{{weatherData.city}}</div>
-    <div class="temperature">当前温度:{{weatherData.wendu}}</div>
+    <div class="city">城市🏙:{{weatherData.city}}市</div>
+    <div class="temperature">当前温度🌡:{{weatherData.wendu}}度</div>
     <div class="tips">{{weatherData.ganmao}}</div>
     <div class="forecast">
       <div class="item" v-for="item in weatherData.forecast" v-bind:key="item.date">
-        日期:{{item.date}}
-        风力:{{item.fenli}}
-        风向:{{item.fengxiang}}
-        最高温度:{{item.high}}
-        最低温度:{{item.low}}
+        日期:{{item.date}} &nbsp;
+        风力:{{item.fenli}}&nbsp;
+        风向:{{item.fengxiang}}&nbsp;
+        最高温度:{{item.high}}&nbsp;
+        最低温度:{{item.low}}&nbsp;
         天气类型:{{item.type}}
       </div>
     </div>

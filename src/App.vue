@@ -27,7 +27,7 @@ export default {
 }
 
 #app {
-  background: url("./imgs/bg/bg_img2.jpg");
+  background: url("./imgs/bg/bg.png");
   background-size: 100vw 100vh;
   width: 100vw;
   height: 100vh;
