@@ -61,7 +61,7 @@ export default {
   width: 100%;
   height: 100%;
   padding: 10px;
-  background-color: rgba(200, 200, 200, 0.8);
+  background-color: rgb(38, 37, 36);
 }
 .root .line {
   width: 100%;
